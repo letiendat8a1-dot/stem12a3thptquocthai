@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô hình Hệ sinh thái Eco-Life - 12A3</title>
+    <style>
+        :root {
+            --primary-green: #2d5a27;
+            --light-green: #e8f5e9;
+            --accent-orange: #ff9800;
+            --text-dark: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text-dark);
+            background-color: #f4f4f4;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: var(--primary-green);
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section h1 { color: white; font-size: 3.5rem; }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .box {
+            background: var(--light-green);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary-green);
+        }
+
+        .quiz-option {
+            background: #fff;
+            border: 2px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--primary-green);
+            background: var(--light-green);
+        }
+
+        .btn-submit {
+            background: #5d9cec;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+
+        ul { list-style-type: square; }
+        
+        .footer-note { font-size: 0.8rem; text-align: center; color: #777; }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <h1>MÔ HÌNH HỆ SINH THÁI<br>ECO - LIFE</h1>
+        <p>Lớp: 12A3</p>
+    </section>
+	<section>
+        <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+          <h2>Hệ sinh thái là gì?</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tDnmA49_Ado?si=Q13_VbGyBceNPcaa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+          <h2>Hệ sinh thái là gì?</h2>
+            <p style="font-size: 1.2rem; text-align: justify;">
+                <strong>Hệ sinh thái (HST)</strong> là hệ thống sinh học gồm tập hợp các quần thể sinh vật khác loài cùng sống trong một khoảng không gian xác định, trong khoảng thời gian xác định và môi trường vô sinh của hệ sinh thái, bao gồm các nhân tố sinh thái phi sinh vật.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Các thành phần của Hệ sinh thái</h2>
+            <div class="grid-container">
+                <div class="box">
+                    <h3>Yếu tố Sinh học:</h3>
+                    <p>Các sinh vật sống</p>
+                    <ul>
+                        <li>Con người</li>
+                        <li>Động vật</li>
+                        <li>Thực vật</li>
+                        <li>Vi khuẩn & Nấm</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Yếu tố Phi sinh học</h3>
+                    <p>Thành phần vật lý và hóa học:</p>
+                    <ul>
+                        <li>Không khí & Ánh sáng mặt trời</li>
+                        <li>Nước & Khoáng chất</li>
+                        <li>Đất</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Tóm tắt nội dung</h2>
+            <div class="box">
+                <strong>Hệ sinh thái:</strong> Một cộng đồng các sinh vật sống tương tác với nhau trong môi trường vật lý và hóa học nhất định.
+            </div>
+            <br>
+            <div class="box">
+                <strong>Các yếu tố Sinh học và Phi sinh học:</strong> Sự kết hợp giữa thành phần Sống (Sinh học) và Không sống (Phi sinh học).
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
